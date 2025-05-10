@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio BTS SIO</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+        <style>
+            body {
+              background-color: #121212;
+              color: #e0e0e0;
+             
+  padding-top: 70px; /* hauteur de la navbar pour éviter que le haut soit masqué */
+}
+
+            
+            h2, h3, h4 {
+              color: #00bfff;
+            }
+            a {
+              color: #00bfff;
+              text-decoration: none;
+            }
+            a:hover {
+              color: #fff;
+              text-decoration: underline;
+            }
+            a:focus, button:focus, .btn:focus {
+              outline: none;
+              box-shadow: none;
+            }
+            .btn-primary {
+              background-color: #007bff;
+              border-color: #007bff;
+            }
+            .btn-primary:hover {
+              background-color: #0056b3;
+              border-color: #0056b3;
+            }
+            section#accueil {
+              background: url('https://source.unsplash.com/1600x600/?technology,code') no-repeat center center/cover;
+              color: white;
+              padding: 80px 20px;
+            }
+            .card {
+              background-color: #1e1e1e;
+              border: none;
+              box-shadow: 0 0 10px rgba(0, 191, 255, 0.2);
+            }
+            footer {
+              background-color: #000;
+            }
+            html {
+              scroll-behavior: smooth;
+            }
+            ::selection {
+              background: #007bff;
+              color: white;
+            }
+          </style>
+          
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+          <div class="container">
+            <a class="navbar-brand" href="#accueil">Portfolio BTS SIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#accueil"><i class="bi bi-house-door"></i> Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#veille"><i class="bi bi-lightbulb"></i> Veille</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projets"><i class="bi bi-code-slash"></i> Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#stages"><i class="bi bi-briefcase"></i> Stages</a></li>
+               
+                <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope"></i> Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+    <div class="container mt-5">
+        <section id="accueil" class="text-center">
+            <h2>Bertrand Thomas</h2>
+            <h4>Étudiant en BTS SIO - Option SLAM</h4>
+            <p>Bienvenue sur mon portfolio. Je suis passionné par l'informatique et le développement.</p>
+            <a href="cv.pdf" download class="btn btn-primary">Télécharger mon CV</a>
+        </section>
+        
+        <section id="veille" class="mt-5">
+            <h1 class="text-center mb-4">🔧 Veille Technologique : Robots Humanoïdes (2024–2025)</h1>
+
+    <section class="mb-5">
+      <h2>1. Progression vers l'autonomie et la polyvalence</h2>
+      <p>Les robots humanoïdes ont franchi des étapes significatives en matière d'autonomie et de polyvalence. Des modèles comme <strong>Figure 02</strong> de Figure AI ont démontré une marche plus naturelle grâce à l'apprentissage par renforcement, facilitant leur intégration dans des environnements industriels tels que les usines de BMW. <a href="#">Live Science</a></p>
+    </section>
+    <section class="mb-5">
+        <h2>2. Avancées dans l'intelligence artificielle embarquée</h2>
+        <p>L'intégration de modèles d'IA avancés, tels que <strong>GR00T N1</strong> de Nvidia, a permis aux robots de mieux comprendre et interagir avec leur environnement. Ce modèle open-source favorise le développement de robots généralistes capables de s'adapter à diverses tâches. <a href="#">The Verge</a></p>
+      </section>
+  
+      <section class="mb-5">
+        <h2>3. Déploiement dans des environnements réels</h2>
+        <p>Des entreprises comme <strong>Boston Dynamics</strong> et <strong>Agility Robotics</strong> ont commencé à déployer leurs robots humanoïdes dans des environnements de production réels. Par exemple, le robot <strong>Atlas</strong> est prévu pour une utilisation dans les usines de Hyundai. <a href="#">WIRED</a></p>
+      </section>
+  
+      <section class="mb-5">
+        <h2>📈 Croissance du marché des robots humanoïdes</h2>
+        <ul>
+          <li><strong>Taille du marché :</strong> estimée à 2,14 milliards USD en 2024, avec des projections atteignant 69,65 milliards USD d'ici 2034 (TCAC : 41,8%). <a href="#">InsightAce Analytic</a></li>
+          <li><strong>Facteurs de croissance :</strong> hausse des coûts de main-d’œuvre, automatisation, progrès en IA.</li>
+        </ul>
+      </section>
+      
+    <section class="mb-5">
+        <h2>🏭 Applications industrielles et commerciales</h2>
+        <ul>
+          <li><strong>Industrie manufacturière :</strong> tâches répétitives et dangereuses.</li>
+          <li><strong>Logistique et entreposage :</strong> robots comme <strong>Digit</strong>.</li>
+          <li><strong>Services :</strong> robots comme <strong>Pepper</strong>.</li>
+        </ul>
+      </section>
+        </section>
+        <section class="mb-5">
+            <h2>🌍 Acteurs clés et modèles notables</h2>
+            <div class="table-responsive">
+              <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Robot / Modèle</th>
+                    <th>Entreprise / Organisation</th>
+                    <th>Caractéristiques principales</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Figure 02</td><td>Figure AI</td><td>Marche naturelle, déploiement industriel</td></tr>
+                  <tr><td>Atlas</td><td>Boston Dynamics</td><td>Mobilité avancée, applications industrielles</td></tr>
+                  <tr><td>Digit</td><td>Agility Robotics</td><td>Manipulation d'objets, navigation autonome</td></tr>
+                  <tr><td>Optimus</td><td>Tesla</td><td>Tâches polyvalentes</td></tr>
+                  <tr><td>GR00T N1</td><td>Nvidia</td><td>IA open-source pour robots généralistes</td></tr>
+                  <tr><td>D9</td><td>Pudu Robotics</td><td>Navigation avancée, interaction naturelle</td></tr>
+                  <tr><td>NEO Gamma</td><td>1X Technologies</td><td>Tâches ménagères, IA avancée</td></tr>
+                  <tr><td>Protoclone</td><td>Clone Robotics</td><td>+1 000 muscles artificiels, mouvements réalistes</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section class="mb-5">
+            <h2>⚠️ Défis et préoccupations</h2>
+            <ul>
+              <li><strong>Sécurité :</strong> incident en Chine avec un robot incontrôlable lors d’un test. <a href="#">New York Post</a></li>
+              <li><strong>Coûts :</strong> hausse liée aux tensions géopolitiques et tarifs douaniers. <a href="#">AP News</a></li>
+            </ul>
+          </section>
+      
+          <section>
+            <h2>🔮 Perspectives d'avenir</h2>
+            <p>L'année 2025 marque une étape cruciale dans l'adoption des robots humanoïdes. Leur intégration dans divers secteurs devrait s’accélérer grâce aux progrès continus en IA et en robotique.</p>
+          </section>
+        
+      
+        <section id="projets" class="mt-5">
+            <h2>Mes Projets</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Projet 1</h3>
+                            <p class="card-text">Description du projet et lien vers GitHub.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Projet 2</h3>
+                            <p class="card-text">Description du projet et lien vers GitHub.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="stages" class="mt-5">
+            <h2>Mes Stages</h2>
+            <p>Présentation de mes expériences professionnelles et attestations de stage.</p>
+        </section>
+        
+       
+        <section id="contact" class="mt-5">
+            <h2>Contact</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nom :</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email :</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message :</label>
+                    <textarea id="message" name="message" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Envoyer</button>
+            </form>
+        </section>
+    </div>
+    <footer class="text-white text-center py-3 mt-5">
+        <p>&copy; 2025 - Portfolio BTS SIO</p>
+      </footer>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
